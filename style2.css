@@ -1,0 +1,152 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f8fb;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.welcome-container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.welcome-links {
+    margin-bottom: 30px;
+}
+
+.welcome-links a {
+    text-decoration: none;
+    font-size: 18px;
+    padding: 12px 24px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+/* Gorgeous Button Styles with Gradients */
+.welcome-links a.btn-warning {
+    background: linear-gradient(135deg, #ffcc00, #ff6600); /* Gorgeous Gradient */
+    color: white;
+    box-shadow: 0 4px 8px rgba(255, 165, 0, 0.2);
+}
+
+.welcome-links a.btn-warning:hover {
+    background: linear-gradient(135deg, #ff6600, #ffcc00); /* Hover Effect */
+    transform: translateY(-2px); /* Slight Lift */
+    box-shadow: 0 6px 12px rgba(255, 165, 0, 0.3); /* Elevation on hover */
+}
+
+.welcome-links a.btn-danger {
+    background: linear-gradient(135deg, #f44336, #e53935); /* Gorgeous Gradient */
+    color: white;
+    box-shadow: 0 4px 8px rgba(220, 53, 69, 0.2);
+}
+
+.welcome-links a.btn-danger:hover {
+    background: linear-gradient(135deg, #e53935, #f44336); /* Hover Effect */
+    transform: translateY(-2px); /* Slight Lift */
+    box-shadow: 0 6px 12px rgba(220, 53, 69, 0.3); /* Elevation on hover */
+}
+
+/* User Table Styles */
+table.user-table {
+    width: 100%;
+    margin-top: 40px;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table.user-table th, table.user-table td {
+    padding: 12px;
+    text-align: left;
+    font-size: 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+table.user-table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+table.user-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table.user-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Action Buttons */
+table.user-table a.btn {
+    padding: 6px 12px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 14px;
+    color: white;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+table.user-table a.btn-sm {
+    font-size: 12px;
+}
+
+/* Gorgeous Action Button Styles */
+table.user-table a.btn-info {
+    background: linear-gradient(135deg, #17a2b8, #138496); /* Gorgeous Gradient */
+    color: white;
+    box-shadow: 0 4px 8px rgba(23, 162, 184, 0.2);
+}
+
+table.user-table a.btn-info:hover {
+    background: linear-gradient(135deg, #138496, #17a2b8); /* Hover Effect */
+    transform: translateY(-2px); /* Slight Lift */
+    box-shadow: 0 6px 12px rgba(23, 162, 184, 0.3); /* Elevation on hover */
+}
+
+table.user-table a.btn-danger {
+    background: linear-gradient(135deg, #dc3545, #c82333); /* Gorgeous Gradient */
+    color: white;
+    box-shadow: 0 4px 8px rgba(220, 53, 69, 0.2);
+}
+
+table.user-table a.btn-danger:hover {
+    background: linear-gradient(135deg, #c82333, #dc3545); /* Hover Effect */
+    transform: translateY(-2px); /* Slight Lift */
+    box-shadow: 0 6px 12px rgba(220, 53, 69, 0.3); /* Elevation on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .welcome-container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    table.user-table {
+        font-size: 14px;
+    }
+
+    table.user-table th, table.user-table td {
+        padding: 8px;
+    }
+}
